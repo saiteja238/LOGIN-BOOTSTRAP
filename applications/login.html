@@ -1,0 +1,33 @@
+<div ng-controller="idpasseval">
+  
+    <div id="loginModal" class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-center">LOGIN</h2></div>
+                <form class="form-signin">
+
+                    <div class="form-group">
+                        <input type="text" class="form-control input-lg" ng-model="param.id" placeholder="ADMIN ID" />
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" ng-model="param.password" placeholder="PASSWORD" />
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-primary btn-lg btn-block" ng-click="eval()">SIGN IN</button>
+                        <button type="button" class="btn btn-primary btn-lg btn-block" ng-click="signup()">SIGN UP</button>
+                    </div>
+                    
+  
+   
+
+                </form>
+  <div flash-message ></div>   
+            </div>
+                
+        </div>
+       
+    </div>
+ 
+</div>
+  
